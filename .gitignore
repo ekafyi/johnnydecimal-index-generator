@@ -1,0 +1,9 @@
+.snowpack
+.nvmrc
+.prettierrc
+.prettierignore
+
+package-lock.json
+
+build
+node_modules
