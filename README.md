@@ -9,8 +9,8 @@ coming soon
 ## How to develop
 
 ```bash
-# clone this repo or clone from your own fork
-https://github.com/ekafyi/johnnydecimal-index-generator.git
+# clone from this repo or from your own fork
+git clone https://github.com/ekafyi/johnnydecimal-index-generator.git
 
 # install dependencies (example with npm; you may also use yarn)
 npm install
