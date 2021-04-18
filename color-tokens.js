@@ -56,13 +56,6 @@ const myColors = {
   "ejd-textOnSecondary": colors.coolGray[600],
   /** Background colour in Add Area/Category/Thing form button */
   "ejd-actionTertiary": colors.blueGray[300],
-
-  // I gave up trying to give these proper, abstract, design tokenish names. 🤷🏽‍♀️
-  // "ejd-borderInputField": colors.white,
-
-  //
-  // textOnInputField
-  //
 };
 
 module.exports = myColors;
