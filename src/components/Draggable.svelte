@@ -110,7 +110,7 @@
     @apply focus:outline-none;
   }
   .jd-area {
-    --area-card-h: 15rem;
+    --area-card-h: auto;
     @apply bg-ejd-surface border-ejd-border border-2 rounded flex flex-col focus:outline-black;
     box-shadow: 4px 4px 0 #111;
     height: var(--area-card-h);
