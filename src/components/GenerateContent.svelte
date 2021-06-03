@@ -1,6 +1,7 @@
 <script lang="typescript">
   import { createEventDispatcher, onMount } from "svelte";
   import { DialogContent } from "svelte-accessible-dialog";
+  import { ShareButton } from ".";
   import { CloseButton } from "./button-elements";
   import { stringifyAreas } from "../utils/jd-stringifier";
   import { areas } from "../stores";
@@ -44,6 +45,7 @@
       <button class="jd-primary-button" class:success={copyButtonText === SUCCESS_BUTTON_TEXT} on:click={handleCopy}>
         {copyButtonText}
       </button>
+      <ShareButton text={formattedText} />
       <p class="share-cta">
         Finding this app helpful?
         <a class="jd-inline-action" rel="external" href={TWITTER_SHARE_URL}>Tweet about it.</a>

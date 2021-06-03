@@ -11,5 +11,6 @@ export { default as Footer } from "./Footer.svelte";
 export { default as GenerateContent } from "./GenerateContent.svelte";
 export { default as GenerateCta } from "./GenerateCta.svelte";
 export { default as ResetButton } from "./ResetButton.svelte";
+export { default as ShareButton } from "./ShareButton.svelte";
 export { default as ThingsDraggable } from "./ThingsDraggable.svelte";
 export { default as ThingTitle } from "./ThingTitle.svelte";

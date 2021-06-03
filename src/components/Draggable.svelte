@@ -123,6 +123,8 @@
 
     /* Notice that the scroll container needs to be the dndzone if you want dragging near the edge to trigger scrolling */
     overflow-y: scroll;
+    /* For mobile view */
+    min-height: 3rem;
   }
   .jd-area.is-dragging,
   .jd-cat.is-dragging {
